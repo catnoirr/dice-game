@@ -1,0 +1,146 @@
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-color:#393E46;
+}
+h1{
+    margin:30px ;
+    font-size: 8rem;
+    font-family:'Lobster',cursive;
+    text-shadow: 5px 0 #232931 ;
+    color: #4ECCA3;
+    
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+p{
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+
+}
+input{
+    width: 40%;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 2rem;
+    background-color: #81848a;
+    text-align: center;
+}input::placeholder{
+    text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+
+}
+input:focus{
+   
+    background-color: white;
+    outline: 3px solid rgb(138, 131, 131);
+    
+}
+input:focus::placeholder{
+    color: #232931;
+    visibility: hidden;
+}
+
+img{
+    width:60%
+}
+footer{
+    /* margin-top: 2%; */
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+i{
+    margin-top: 10px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 0 auto;
+  display: block;
+  height: 50px;
+  padding: 10px;
+  border-radius: 1rem;
+  width: 150px;
+  border: none;
+  background-color: #cacacc;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  
+   
+    
+    
+}
+button:hover{
+    background-color: rgb(161, 28, 28);
+    color:white;
+}
+.button{
+    margin: 0 auto;
+  display: block;
+  height: 50px;
+  padding: 10px;
+  border-radius: 1rem;
+  width: 150px;
+  border: none;
+  background-color: #cacacc;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  
+   
+    
+    
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    h1{
+        font-size: 10rem;
+    }
+    
+
+   }
+   @media only screen and (min-width: 768px) and (max-width: 935px) {
+     h1{
+        font-size: 5rem;
+     }
+   }
+   
+   /* For mobile */
+   @media only screen and (max-width: 767px) {
+    
+    .container {
+        width: 90%;
+        
+      }
+    body{
+        overflow: hidden;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    input{
+        width: 200px;
+        height: 50px;
+        padding: 5px;
+    }
+    
+   }
+    

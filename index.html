@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+    rel="stylesheet"
+  />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+       <h1>Lets Play!</h1>
+
+       <div class="dice">
+        <input type="text" class=".p" placeholder="Enter Player 1 Name" id="myInput">
+        <img class="img1" src="images/dice6.png" alt="">
+       </div>
+
+       <div class="dice">
+        <input type="text" class=".p" placeholder="Enter Player 2 Name" id="myInput">
+        <img class="img2" src="images/dice6.png">
+       </div>
+    </div>
+
+    <button onclick=" playerWin();">See who wins!</button>
+    <!-- <input type="submit" class="button" onclick=" playerWin();"> -->
+
+   <div class="foot"><a href="https://www.instagram.com/offxsagr/"> <footer><i class='bx bxl-instagram' ></i>offxsagr</footer></a>
+   </div>
+    
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
